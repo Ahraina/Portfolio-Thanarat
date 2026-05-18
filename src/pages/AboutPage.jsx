@@ -1,17 +1,58 @@
 import { useState, useRef, useCallback } from 'react'
 import { Divider, SkillTag } from '../components/UI'
 
-const SKILLS = [
-  'JavaScript','TypeScript','Python',
-  'React','Node.js','SQL',' MySQL',
-  'Git','Docker','REST API','Database System',
-  'Excel','App Scripts','HTML & CSS',
-  'Java','C#','Computer Engineer & Technical',
-  'Data Analysis','Power BI','Tableau'
-  ,'Google Colab (Machine Learning & Deep Learning)',
-  ' OSI Model and TCP/IP Protocols','Network'
-  ,'Windows','Linux','Ubuntu','Kali Linux','Debian'
-]
+const SKILLS = {
+  'Front-end': [
+    'JavaScript',
+    'TypeScript',
+    'HTML & CSS',
+    'Tailwind CSS',
+  ],
+  'Back-end': [
+    'Java',
+    'Python',
+    'Node.js',
+    'Express.js',
+    'RESTful API',
+    'Authentication / JWT',
+    'CRUD Operations',
+  ],
+  'Libraries & Frameworks': [
+    'React',
+    'Vite',
+    'Vue.js',
+    'Flask',
+    'jQuery',
+    'NestJS',
+  ],
+  'Database': [
+    'SQL',
+    'PostgreSQL',
+    'MySQL',
+    'Database Design',
+    'Relational Database',
+  ],
+  'Tools & Others': [
+    'GitHub',
+    'Git',
+    'Docker',
+    'Excel',
+    'Power BI',
+    'Tableau',
+    'Google Colab (ML & DL)',
+    'Google Apps Script',
+  ],
+  'Operating System & Network': [
+    'Windows',
+    'Linux',
+    'Ubuntu',
+    'Kali Linux',
+    'Debian',
+    'Network System',
+    'OSI Model',
+    'TCP/IP',
+  ],
+}
 
 const INFO_ROWS = [
   ['ฺBirthday',  '10 November 2002'],
@@ -144,12 +185,59 @@ export default function AboutPage() {
 
           <Divider />
 
-          <p style={{ fontSize: 10, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: 1.5, marginBottom: 12, fontWeight: 600 }}>Skills</p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, animation: 'fadeUp 0.5s 0.22s ease both' }}>
-            {SKILLS.map(s => <SkillTag key={s}>{s}</SkillTag>)}
-          </div>
-        </div>
+<p
+  style={{
+    fontSize: 10,
+    color: 'var(--text-muted)',
+    textTransform: 'uppercase',
+    letterSpacing: 1.5,
+    marginBottom: 12,
+    fontWeight: 600,
+  }}
+>
+  Skills
+</p>
+
+<div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr',
+    gap: 18,
+    animation: 'fadeUp 0.5s 0.22s ease both',
+  }}
+>
+  {Object.entries(SKILLS).map(([category, skills]) => (
+    <div
+      key={category}
+      style={{
+        border: '1px solid rgba(0,0,0,0.08)',
+        borderRadius: 16,
+        padding: 16,
+        background: 'rgba(255,255,255,0.55)',
+      }}
+    >
+      <p
+        style={{
+          fontSize: 11,
+          color: 'var(--black)',
+          textTransform: 'uppercase',
+          letterSpacing: 1.4,
+          marginBottom: 10,
+          fontWeight: 700,
+        }}
+      >
+        {category}
+      </p>
+
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+        {skills.map(skill => (
+          <SkillTag key={skill}>{skill}</SkillTag>
+        ))}
       </div>
+    </div> ))}
+      </div>
+    </div>
+  </div>
     </section>
   )
 }
