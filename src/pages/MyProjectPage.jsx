@@ -6,7 +6,7 @@ const PROJECTS = [
     title: 'Inventory Management System - Demo',
     type: 'Full-Stack Web Application',
     period: '2026',
-    image: '/stock.PNG',
+    image: '/stock.png',
     desc:
       'A React-based demonstration version recreated from the original internal inventory management system developed during the internship at The Administrative Court of Thailand. The application is fully interactive and available for live demonstration.',
     features: [
@@ -40,7 +40,7 @@ const PROJECTS = [
     title: 'Graduation Game Project Website',
     type: 'Frontend Web Application',
     period: '2025',
-    image: '/game.PNG', 
+    image: '/game.png', 
     desc:
       'A responsive graduation project website developed to present game information, project details, and multimedia content.',
     features: [
@@ -62,7 +62,7 @@ const PROJECTS = [
     title: 'Internship Portfolio Website',
     type: 'Personal Academic Portfolio Website',
     period: '2025-2026',
-    image: '/intern.PNG',
+    image: '/intern.png',
     desc:
       'A responsive internship portfolio website developed to showcase internship experience, technical skills, responsibilities, and project outcomes during the internship period at The Administrative Court of Thailand.',
     features: [
