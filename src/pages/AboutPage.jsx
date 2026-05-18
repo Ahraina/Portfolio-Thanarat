@@ -11,6 +11,7 @@ const SKILLS = {
   'Back-end': [
     'Java',
     'Python',
+    'C#',
     'Node.js',
     'Express.js',
     'RESTful API',
