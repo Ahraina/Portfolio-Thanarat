@@ -30,6 +30,7 @@ const SKILLS = {
     'Relational Database',
   ],
   'Tools & Others': [
+    'VSCode',
     'GitHub',
     'Git',
     'Jira',
