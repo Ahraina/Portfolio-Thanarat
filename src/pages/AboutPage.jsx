@@ -159,23 +159,21 @@ export default function AboutPage() {
 
           <p style={{ fontSize: 10, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: 1.5, marginBottom: 10, fontWeight: 600 }}>About Me</p>
           <p style={{ fontSize: 14, color: 'var(--text-mid)', lineHeight: 1.9, animation: 'fadeUp 0.5s 0.18s ease both' }}>
-            Recent Computer Technology graduate with a strong interest in Data Analysis, Database Management,
-            Artificial Intelligence, and Software Development. Skilled in Python, SQL, JavaScript, TypeScript, HTML,
-            and CSS, with hands-on experience in data processing using MySQL and Microsoft Excel. Experienced in
-            data visualization with Tableau, including dashboard development and transforming data into actionable
-            insights. Familiar with Machine Learning and Deep Learning concepts through academic projects,
-            including data preparation and model development using Google Colab.
+            Recent Computer Technology graduate with a strong interest in System Analysis, Solution Design, Database Management, 
+            and Data Analysis. Skilled in SQL, Python, JavaScript, TypeScript, HTML, and CSS, with hands-on experience in database design, 
+            API integration, workflow analysis, and supporting system development processes. Familiar with data analysis concepts and 
+            using technology to improve business processes and support decision-making.
             <br></br>
             <br></br>
-            <p>Gained hands-on experience in full-stack system development during an internship, including front-end
-              and back-end development, database design, API integration, system enhancement, and collaborating
-              with team members throughout the software development lifecycle. Organized and managed a Tableau
-              training course, including dataset preparation and learning materials design.
+            <p>Gained hands-on experience in system development and technical support during an internship, 
+              including analyzing user requirements, workflow improvement, front-end and back-end support, database management, 
+              API integration, and system enhancement. Also experienced in supporting users, troubleshooting technical issues, 
+              and collaborating with team members throughout the software development lifecycle.
             </p>
             <br></br>
-            <p>Strong problem-solving and analytical thinking skills with the ability to learn new technologies quickly.
-              Able to work collaboratively in team environments and communicate technical information effectively.
-              Passionate about applying technology and data-driven approaches to support business improvement and innovation.
+            <p>Strong analytical thinking, problem-solving, and communication skills with the ability to understand business needs 
+              and translate requirements into effective technical solutions. Able to work collaboratively in team environments, 
+              communicate with users effectively, and passionate about applying technology to support business improvement and innovation.
             </p>
 
           </p>
