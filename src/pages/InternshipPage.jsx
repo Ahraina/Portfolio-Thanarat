@@ -14,7 +14,7 @@ const INTERNS = [
       'Gathered user requirements from IT Support staff and improved system workflows based on operational needs and feedback.',
       'Performed bug fixing, system maintenance, and continuous feature enhancements based on user testing throughout the internship period.',
     ],
-    techs: ['JavaScript','Google Apps Script','HTML5','Tailwind CSS','Google Sheets','RESTful API','Authentication System','Role-Based Access Control','Inventory Tracking','Agile Development'],
+    techs: ['JavaScript','Google Apps Script','HTML5','Tailwind CSS','Google Sheets','API Integration','Authentication System','Role-Based Access Control','Inventory Tracking','Agile Development'],
   },
   {
     company: 'IT Support & Network Technician Intern',
