@@ -20,7 +20,6 @@ const SKILLS = {
     'Vite',
     'Tailwind CSS',
     'Google Apps Script',
-    '.NET',
   ],
   'Database': [
     'SQL',
