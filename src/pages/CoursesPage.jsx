@@ -2,13 +2,14 @@ import { useState } from 'react'
 import { PageHeader } from '../components/UI'
 
 const COURSES = [
-  { cat: 'INTENSHIP',         name: 'CO-OP Edu In Comp Tech',             grade: 'A', pct:100 },
   { cat: 'Mathematics',       name: 'Discrete Mathematics',               grade: 'B+', pct: 90  },
   { cat: 'COMPUTER',          name: 'Basic Computer for Education',       grade: 'B+',  pct: 90 },
-  { cat: 'Management',        name: 'Innovation & Information Technology Learning Management',        grade: 'B', pct: 85  },
+  { cat: 'Management',        name: 'Innovation & Information Technology Learning Management',        grade: 'B', pct: 80  },
   { cat: 'Programming',       name: 'Computer & Programming',             grade: 'B',  pct: 80 },
   { cat: 'AI/DL/ML',          name: 'Artificial Intelligence',            grade: 'B',  pct: 80 },
   { cat: 'attitude',          name: 'Design Thinking',                    grade: 'B',  pct: 80  },
+  { cat: 'Education',         name: 'Teaching Practice',                  grade: 'B',  pct: 80  },
+  { cat: 'Education',         name: 'Principles Of Education For Sustainable Development', grade: 'B', pct: 80 },
   { cat: 'Programming',       name: 'Object-Oriented Programming',        grade: 'C+', pct: 70  },
   { cat: 'Business',          name: 'Business & Management Economics',    grade: 'C+', pct: 70 },
   { cat: 'Database',          name: 'Database System',                    grade: 'C+', pct: 70 },
