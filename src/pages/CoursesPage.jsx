@@ -9,7 +9,7 @@ const COURSES = [
   { cat: 'AI/DL/ML',          name: 'Artificial Intelligence',            grade: 'B',  pct: 80 },
   { cat: 'attitude',          name: 'Design Thinking',                    grade: 'B',  pct: 80  },
   { cat: 'Education',         name: 'Teaching Practice',                  grade: 'B',  pct: 80  },
-  { cat: 'Education',         name: 'Principles Of Education For Sustainable Development', grade: 'B', pct: 80 },
+  { cat: 'Education',         name: 'Principles of Education for Sustainable Development', grade: 'B', pct: 80 },
   { cat: 'Programming',       name: 'Object-Oriented Programming',        grade: 'C+', pct: 70  },
   { cat: 'Business',          name: 'Business & Management Economics',    grade: 'C+', pct: 70 },
   { cat: 'Database',          name: 'Database System',                    grade: 'C+', pct: 70 },
