@@ -6,7 +6,7 @@ const PROJECTS = [
     title: 'PTT AI Camera Detection System',
     type: 'AI / Full-Stack Web Application · Key Project',
     period: '2026',
-    image: '/public/PTT.png',
+    image: '/PTT.png',
     desc: 'An AI-powered camera monitoring system developed for PTT to monitor camera feeds and detect construction vehicles and machinery in designated areas.',
     features: [
       'AI Camera Monitoring',
@@ -26,7 +26,7 @@ const PROJECTS = [
     title: 'E-Service System – Department of Highways',
     type: 'UX/UI Design & System Testing · Key Project',
     period: '2026',
-    image: '/public/E-Service.png',
+    image: '/E-Service.png',
     desc: 'An E-Service system designed for the Department of Highways to support government officers, juristic persons, and individual users.',
     features: [
       'UX/UI Design',
@@ -46,7 +46,7 @@ const PROJECTS = [
     title: 'EXAT Road Inspection System',
     type: 'Road & Camera Monitoring System · Project Support',
     period: '2026',
-    image: '/public/infra.jpg',
+    image: '/infra.jpg',
     desc: 'Supported an expressway road inspection system by collecting, verifying, and preparing CCTV camera location and GPS coordinate data for system implementation.',
     features: [
       'CCTV Camera Location Mapping',
@@ -82,7 +82,7 @@ const PROJECTS = [
     title: 'RMMS',
     type: 'System Testing & Project Support · Project Support',
     period: '2026',
-    image: '/public/infra.jpg',
+    image: '/infra.jpg',
     desc: 'Supported system testing and quality verification for the RMMS project, including identifying issues and providing feedback to the development team.',
     features: [
       'System Testing',
