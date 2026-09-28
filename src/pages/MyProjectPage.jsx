@@ -64,7 +64,7 @@ const PROJECTS = [
     title: 'Road Damage Classification AI',
     type: 'AI / Machine Learning · Project Support',
     period: '2026',
-    image: '/public/ML.jpg',
+    image: '/ML.jpg',
     desc: 'Supported the training and evaluation of an AI classification model for identifying damaged and normal road conditions from road images.',
     features: [
       'AI Model Training Support',
