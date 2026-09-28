@@ -1,0 +1,80 @@
+.nav {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  animation: fadeIn 0.4s ease both;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.03);
+}
+
+.logo {
+  transition: opacity 0.2s ease;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--black);
+  letter-spacing: 1px;
+}
+.logo:hover {
+  opacity: 0.75;
+}
+
+.links {
+  display: flex;
+  gap: 2px;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 400;
+  padding: 7px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+  background 0.25s ease,
+  color 0.25s ease,
+  border-color 0.25s ease,
+  transform 0.2s ease;
+  letter-spacing: 0.2px;
+}
+
+.btn:hover {
+  background: var(--white3);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+.btn[data-active='true'] {
+  background: var(--black);
+  border-color: var(--black);
+  color: var(--white);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+@media (max-width: 768px) {
+  .nav {
+    padding: 0 20px;
+  }
+
+  .links {
+    gap: 4px;
+    overflow-x: auto;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 6px 12px;
+    white-space: nowrap;
+  }
+}
